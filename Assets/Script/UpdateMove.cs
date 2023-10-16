@@ -7,6 +7,7 @@ public class UpdateMove : MonoBehaviour
 
     void Update()
     {
+        this.transform.Translate (0, 0, 0.01f);
 
     }
 }
