@@ -29,10 +29,10 @@ public class Drive : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.T)) {
 
-            transGun.RotateAround(transGun.position, transGun.right, -2.0f);
+            transGun.RotateAround(transGun.position, transGun.right, -0.5f);
         } else if (Input.GetKey(KeyCode.G)) {
 
-            transGun.RotateAround(transGun.position, transGun.right, 2.0f);
+            transGun.RotateAround(transGun.position, transGun.right, 0.5f);
         } else if (Input.GetKeyDown(KeyCode.B)) {
 
             Instantiate(bulletObj, gun.position, gun.rotation);
