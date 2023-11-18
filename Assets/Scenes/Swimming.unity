@@ -156,8 +156,8 @@ MonoBehaviour:
   goalPos: {x: 0, y: 0, z: 0}
   minSpeed: 1.07
   maxSpeed: 2.54
-  neighbourDistance: 0
-  rotationSpeed: 0
+  neighbourDistance: 10
+  rotationSpeed: 1.96
 --- !u!4 &6329960
 Transform:
   m_ObjectHideFlags: 0
