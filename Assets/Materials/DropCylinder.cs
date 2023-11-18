@@ -26,7 +26,8 @@ public class NewBehaviourScript : MonoBehaviour
                 Instantiate(obstacle, hitInfo.point, obstacle.transform.rotation);
                 foreach(GameObject a in agents)
                 {
-                    a.GetComponent
+                    a.GetComponent<AIControl>.DetectNewObstacle(hitInfo.point);
+                    
                 }
             }
         }
