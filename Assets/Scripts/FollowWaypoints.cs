@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowWP : MonoBehaviour
-{
+public class FollowWaypoints : MonoBehaviour {
+
     Transform goal;
     float speed = 5.0f;
     float accuracy = 5.0f;
@@ -32,13 +32,19 @@ public class FollowWP : MonoBehaviour
 
     public void GotoRuin() {
 
+        g.AStar(currentNode, wps[7]);
+        currentWP = 0;
+    }
+
+    public void GotoRock() {
+
         g.AStar(currentNode, wps[1]);
         currentWP = 0;
     }
 
     public void GotoFactory() {
 
-        g.AStar(currentNode, wps[5]);
+        g.AStar(currentNode, wps[4]);
         currentWP = 0;
     }
 

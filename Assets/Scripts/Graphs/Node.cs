@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Node 
-{
+public class Node {
+
     public List<Edge> edgeList = new List<Edge>();
     public Node path = null;
     public float f, g, h;

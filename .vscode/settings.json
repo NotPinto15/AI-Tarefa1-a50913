@@ -56,5 +56,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "AI-Tarefa1-a50913.sln"
+    "dotnet.defaultSolution": "AI-Tarefa1-a50913.sln",
+    "cSpell.words": [
+        "Slerp"
+    ]
 }
